@@ -27,15 +27,12 @@ function setup(){
 }
 
 function draw() {
-  background(220);
+  background(0);
   sea.velocityX = -3;
 
   //uncomment code to reset the background
   if(sea.x < 0){
-    sea.x = 0;
-    sea.x = sea.width;
     sea.x = sea.width/8;
-    sea.y = height;
   }
 
  
